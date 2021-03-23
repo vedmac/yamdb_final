@@ -1,0 +1,6 @@
+pytest-django
+requests
+django
+djangorestframework
+flake8
+django-filter
