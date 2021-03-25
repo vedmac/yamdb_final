@@ -1,4 +1,3 @@
-Makefile
 docker-compose.yaml
 db.sqlite3
 .git/*

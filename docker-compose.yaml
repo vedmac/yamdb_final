@@ -1,12 +1,11 @@
-version: '3.8'
+version: '3.3'
 
 services:
 
   web:
-    build: .
+    image: vermolov/yamdb_final:latest
     restart: always
     volumes:
-      - .:/usr/src/web/
       - static_data:/usr/src/web/static/
       - media_data:/usr/src/web/media
     env_file:

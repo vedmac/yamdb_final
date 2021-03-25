@@ -51,7 +51,8 @@ class Titles(models.Model):
 
     @property
     def rating(self):
-        avg_score = Review.objects.filter(title=self).aggregate(rating=Avg('score'))  # noqa
+        avg_score = Review.objects.filter(
+            title=self).aggregate(rating=Avg('score'))
         rating = avg_score['rating']
         return rating
 
