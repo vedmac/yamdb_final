@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/Bytlot/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/Bytlot/yamdb_final/actions)
+[![Actions Status](https://github.com/Bytlot/yamdb_final/workflows/CI/badge.svg)](https://github.com/Bytlot/yamdb_final/actions)
 # Service Yamdb
 
 Service – databases of reviewing films, books, music and REST API for it 
